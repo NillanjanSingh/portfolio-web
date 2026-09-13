@@ -5,9 +5,8 @@ import { Menu, X } from 'lucide-react'
 const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Experience', href: '#experience' },
-  { label: 'Work', href: '#projects' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Skills', href: '#skills' },
-  { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -35,11 +34,10 @@ export default function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled
-            ? 'py-3 bg-[#080B0F]/90 backdrop-blur-xl border-b border-white/[0.06] shadow-lg shadow-black/20'
-            : 'py-5'
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+          ? 'py-3 bg-[#080B0F]/90 backdrop-blur-xl border-b border-white/[0.06] shadow-lg shadow-black/20'
+          : 'py-5'
+          }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           {/* Logo */}
