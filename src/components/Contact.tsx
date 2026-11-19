@@ -112,13 +112,6 @@ export default function Contact() {
                 LinkedIn
               </a>
             )}
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="inline-flex items-center gap-2.5 px-5 py-3 rounded-xl border border-white/[0.1] hover:border-white/25 text-slate-400 hover:text-white transition-all duration-200 hover:bg-white/5 text-sm font-medium"
-            >
-              <Mail size={16} />
-              Email
-            </a>
           </motion.div>
         </div>
       </div>

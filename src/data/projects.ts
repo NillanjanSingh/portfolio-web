@@ -65,7 +65,7 @@ export const projects: Project[] = [
       'Firebase Google authentication and session management',
     ],
     tech: ['Flutter', 'Dart', 'Firebase', 'LLM APIs', 'RAG'],
-    github: '', // Add when available
+    github: 'https://github.com/SoftwareEnggProjectsIITT/AppDevProject', // Add when available
     category: 'ai',
     featured: true,
   },
@@ -82,7 +82,7 @@ export const projects: Project[] = [
       'PostgreSQL with Prisma ORM for type-safe data access',
     ],
     tech: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma', 'Socket.io', 'LiveKit'],
-    github: '', // Add when available
+    github: 'https://github.com/SoftwareEnggProjectsIITT/unisphere',
     category: 'fullstack',
   },
   {
